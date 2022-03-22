@@ -31,9 +31,9 @@ export default function Home() {
   return loading ? (
     <Preloader />
   ) : (
-    <div className="mx-10 lg:mx-0">
-      <Jumbotron />
-      <ListProducts setLoading={setLoading} />
-    </div>
+  <>      
+    <Jumbotron />
+    <ListProducts setLoading={setLoading} />
+  </>
   );
 }

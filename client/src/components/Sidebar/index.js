@@ -37,7 +37,7 @@ export default function Sidebar() {
               to="products"
               className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
             >
-              <span className="flex-1 ml-3 whitespace-nowrap">Products</span>
+              <span className="flex-1 ml-3 whitespace-nowrap">Obat</span>
             </NavLink>
           </li>
           <li>
@@ -45,7 +45,7 @@ export default function Sidebar() {
               to="toppings"
               className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
             >
-              <span className="flex-1 ml-3 whitespace-nowrap">Toppings</span>
+              <span className="flex-1 ml-3 whitespace-nowrap">Vitamin</span>
             </NavLink>
           </li>
           <li>

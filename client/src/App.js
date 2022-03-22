@@ -82,8 +82,8 @@ export default function App() {
     checkToken();
   }, []);
   return (
-    <div className="container my-6">
-      <div className="relative h-[96vh] mx-8">
+    <div className="container ">
+      <div className="relative">
         <ModalAuth />
         <Navbar />
         <Routes>

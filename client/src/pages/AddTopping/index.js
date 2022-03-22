@@ -4,7 +4,7 @@ import { API } from "../../config/api";
 import Alert from "../../components/Alert";
 import Preloader from "../../components/Preloader";
 
-import toping from "../../assets/img/toping-big.png";
+import toping from "../../assets/img/evatek.png";
 import attachment from "../../assets/img/attachment.svg";
 
 export default function AddTopping() {
@@ -107,7 +107,7 @@ export default function AddTopping() {
         <div className="flex-grow">
           <form onSubmit={handleSubmit}>
             <h2 className="text-3xl text-blood font-bold">
-              {params.id ? "Update" : "Add"} Topping
+              {params.id ? "Update" : "Add"} Vitamin
             </h2>
             <Alert alert={alert} setAlert={setAlert} />
             <div className="space-y-8  mt-12">
@@ -129,7 +129,7 @@ export default function AddTopping() {
               </svg>
               <div>
                 <span className="font-bold">Info!</span> Fill this in the
-                Topping.
+                Vitamin.
               </div>
             </div>
               <input
@@ -139,7 +139,7 @@ export default function AddTopping() {
                 value={title}
                 onChange={handleChange}
                 className="bg-smooth border-2 border-blood text-gray-900 text-sm rounded-md focus:ring-red-800 focus:border-red-800 block w-full p-4 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                placeholder="Title Topping"
+                placeholder="Title Vitamin"
                 required
               />
               <input
@@ -166,14 +166,14 @@ export default function AddTopping() {
               </div>
             <div className="flex justify-center">
               <button className="text-center text-white bg-blood w-[100%] py-2.5 mt-3 rounded-md hover:bg-red-600 focus:bg-red-900 focus:ring-4 focus:ring-red-200">
-                {params.id ? "Update" : "Add"} Topping
+                {params.id ? "Update" : "Add"} Vitamin
               </button>
             </div>
             </div>
           </form>
         </div>
         <img
-          className="w-[336px] h-[336px] mx-15 mt-12 object-cover rounded-full"
+          className="w-[336px] h-[336px] mx-15 mt-12 object-cover rounded"
           src={preview ?? toping}
           alt=""
         />

@@ -5,7 +5,7 @@ import { UserContext } from "../../context/UserContext";
 import { API } from "../../config/api";
 
 import Dropdown from "../Dropdown";
-import logo from "../../assets/img/logo.png";
+import logo from "../../assets/img/evatek.png";
 import avatar from "../../assets/img/avatar.jpg";
 import shopbasket from "../../assets/img/shopbasket.png";
 
@@ -31,10 +31,13 @@ export default function Navbar() {
   }, [state]);
   const location = useLocation();
   return (
-    <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-600 my-5">
+    <nav className="bg-white py-2.5 dark:bg-gray-600 my-5 shadow-2xl px-4 text-red-400">
+        <div className="absolute top-8 left-16 text-2xl">
+          <h1>Evatek</h1>
+        </div>
       <div className="flex flex-wrap justify-between items-center">
         <Link to="/">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="w-12"/>
         </Link>
         {state.isLogin ? (
           <ul className="flex justify-end items-center space-x-12">

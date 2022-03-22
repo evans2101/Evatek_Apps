@@ -144,7 +144,7 @@ export default function Detail() {
             </span>
             <Alert alert={alert} setAlert={setAlert} />
             <div className="mt-4">
-              <h3 className="text-3xl text-maroon font-black">Topping</h3>
+              <h3 className="text-3xl text-maroon font-black">Vitamin</h3>
               <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-x-12 gap-y-10 mt-5">
                 {toppings.map((topping) => (
                   <label key={topping.id} className="relative">

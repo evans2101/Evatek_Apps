@@ -56,7 +56,7 @@ export default function DashContent() {
       <div className=" text-2xl font-semibold text-gray-700">
       <div className="text-xl">
           <span className="text-2xl">{total.users}</span><br />
-          Products
+          Users
         </div>
       </div>
       </div>
@@ -74,7 +74,7 @@ export default function DashContent() {
       <div className=" text-2xl font-semibold text-gray-700">
       <div className="text-xl">
           <span className="text-2xl">{total.products}</span><br />
-          Products
+          Obat
         </div>
       </div>
       </div>
@@ -93,7 +93,7 @@ export default function DashContent() {
       <div className=" text-2xl font-semibold text-gray-700">
           <div className="text-xl">
             <span className="text-2xl">{total.toppings}</span><br />
-            Toppings
+            Vitamin
           </div>
         </div>
       </div>
