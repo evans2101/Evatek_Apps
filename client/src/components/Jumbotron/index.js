@@ -31,7 +31,7 @@ export default function Jumbotron() {
           </p>
         </div>
         <img
-          className="absolute w-80 -bottom-48 md:-bottom-1/2 right-0 left-0 mx-auto lg:bottom-auto lg:left-auto lg:-right-60 rounded-lg top-20"
+          className="absolute w-80 -bottom-48 md:-bottom-1/2 right-0 left-0 mx-auto lg:bottom-auto lg:left-auto lg:-right-40 rounded-lg top-20"
           src={jumbotronimg}
           alt="jumbotron"
         />

@@ -82,7 +82,7 @@ export default function App() {
     checkToken();
   }, []);
   return (
-    <div className="container ">
+    <div>
       <div className="relative">
         <ModalAuth />
         <Navbar />

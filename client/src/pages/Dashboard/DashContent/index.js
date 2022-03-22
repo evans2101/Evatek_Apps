@@ -33,13 +33,13 @@ export default function DashContent() {
     <Preloader />
   ) : (
     <>
-  <div class="intro-y flex items-center h-10">
+  <div class="intro-y flex items-center h-10 pr-5">
     <h2 class="text-lg font-medium truncate mr-5">General Report</h2>
       <a href="" class="ml-auto flex items-center text-primary">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="refresh-ccw" data-lucide="refresh-ccw" class="lucide lucide-refresh-ccw w-4 h-4 mr-3"><path d="M3 2v6h6"></path><path d="M21 12A9 9 0 006 5.3L3 8"></path><path d="M21 22v-6h-6"></path><path d="M3 12a9 9 0 0015 6.7l3-2.7"></path></svg> Reload Data
       </a>
   </div>
-  <div class="w-full px-30 lg:w-full">
+  <div class="w-full px-30 lg:w-full pr-4">
     <div class="grid gap-4 lg:grid-cols-3"></div>
     <div class="flex items-center px-4 py-6 bg-gray-100 rounded-md shadow-md">
       
