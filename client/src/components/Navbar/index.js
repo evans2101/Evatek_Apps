@@ -31,7 +31,7 @@ export default function Navbar() {
   }, [state]);
   const location = useLocation();
   return (
-    <nav className="bg-white py-2.5 dark:bg-gray-600 my-5 shadow-2xl px-4 text-red-400">
+    <nav className="bg-neutral-100 py-2.5 dark:bg-gray-600 my-5 shadow-2xl px-4 text-red-400">
         <div className="absolute top-8 left-16 text-2xl">
           <h1>Evatek</h1>
         </div>

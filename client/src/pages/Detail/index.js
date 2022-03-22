@@ -130,7 +130,7 @@ export default function Detail() {
     <div className="lg:mx-10">
       <div className="flex flex-col md:flex-row  justify-around mb-9 mt-20">
         <div className="flex flex-col shadow-[0_4px_0_0_rgba(0,0,0,1)] border-2 border-black rounded-3xl overflow-hidden m-4 p-4">
-        <h1 className="text-5xl mb-2 font-black text-blood font-">
+        <h1 className="text-5xl mb-2 font-black text-gray-600 font-">
           {product.title}
         </h1>
         <img
@@ -184,7 +184,7 @@ export default function Detail() {
             </div>
             <button
               type="submit"
-              className="w-full text-center text-white bg-blood px-auto py-2.5 rounded-md hover:bg-red-600 focus:bg-red-900 focus:ring-4 focus:ring-red-200 mt-6"
+              className="w-full text-center text-white bg-gray-600 px-auto py-2.5 rounded-md hover:bg-gray-600 focus:bg-red-900 focus:ring-4 focus:ring-red-200 mt-6"
             >
               Add to Cart
             </button>

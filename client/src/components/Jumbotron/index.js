@@ -36,7 +36,7 @@ export default function Jumbotron() {
           alt="jumbotron"
         />
       </div>
-        <h2 className="text-4xl font-black text-neutral-600 mt-16 mb-12 mx-20">
+        <h2 className="text-3xl font-black text-neutral-600 mt-16 mb-12 mx-20">
             Penawaran Menarik
         </h2>
     </div>
