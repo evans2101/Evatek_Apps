@@ -71,7 +71,7 @@ export default function AddProduct() {
         .then((res) => {
           setAlert({
             status: "success",
-            message: "Product has been updated",
+            message: "Obat has been updated",
           });
         })
         .catch((err) => {
@@ -84,7 +84,7 @@ export default function AddProduct() {
         .then((res) => {
           setAlert({
             status: "success",
-            message: "Product has been added",
+            message: "Obat has been added",
           });
           setForm({
             title: null,

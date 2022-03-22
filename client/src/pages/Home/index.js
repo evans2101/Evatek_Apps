@@ -7,7 +7,7 @@ import ListProducts from "../../components/ListProducts";
 import Preloader from "../../components/Preloader";
 
 export default function Home() {
-  document.title = "Landing Page | WaysBucks";
+  document.title = "Landing Page | Evatek";
   const [loading, setLoading] = useState(true);
   const [state, dispatch] = useContext(UserContext);
   // get more user data

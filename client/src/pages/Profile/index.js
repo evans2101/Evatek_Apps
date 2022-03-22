@@ -12,7 +12,7 @@ import avatar from "../../assets/img/avatar.jpg";
 import logo from "../../assets/img/logo-small.png";
 
 export default function Profile() {
-  document.title = "Profile | WaysBucks";
+  document.title = "Profile | Evatek";
   const MySwal = withReactContent(Swal);
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);

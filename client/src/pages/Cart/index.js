@@ -11,7 +11,7 @@ import bin from "../../assets/img/bin.svg";
 import invoice from "../../assets/img/invoice.svg";
 
 export default function Cart() {
-  document.title = "Cart | WaysBucks";
+  document.title = "Cart | Evatek";
   // initial order
   const initialOrder = [];
   // reducer function

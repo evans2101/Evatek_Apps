@@ -4,7 +4,7 @@ import Preloader from "../../../components/Preloader";
 import Sidebar from "../../../components/Sidebar";
 
 export default function DashContent() {
-  document.title = "Dashboard | WaysBucks";
+  document.title = "Dashboard | Evatek";
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState({
     users: 0,

@@ -7,7 +7,7 @@ import Preloader from "../../../components/Preloader";
 import DashContent from "../DashContent";
 
 export default function Product() {
-  document.title = "Products | WaysBucks";
+  document.title = "Obat | Evatek";
   const [loading, setLoading] = useState(true);
   const [products, setProducts] = useState([]);
   // get all products

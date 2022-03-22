@@ -70,7 +70,7 @@ export default function AddTopping() {
         .then((res) => {
           setAlert({
             status: "success",
-            message: "Topping has been updated",
+            message: "Vitamin has been updated",
           });
         })
         .catch((err) => {
@@ -83,7 +83,7 @@ export default function AddTopping() {
         .then((res) => {
           setAlert({
             status: "success",
-            message: "Topping has been added",
+            message: "Vitamin has been added",
           });
           setForm({
             title: null,

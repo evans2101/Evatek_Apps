@@ -7,7 +7,7 @@ import Preloader from "../../../components/Preloader";
 import DashContent from "../DashContent";
 
 export default function Topping() {
-  document.title = "Toppings | WaysBucks";
+  document.title = "Vitamin | Evatek";
   const [loading, setLoading] = useState(true);
   const [toppings, setToppings] = useState([]);
   // get all toppings
