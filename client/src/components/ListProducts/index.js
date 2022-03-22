@@ -21,7 +21,7 @@ export default function ListProducts() {
   };
   return (
     <div>
-      <h2 className="text-4xl font-black text-blood mt-16 mb-12 lg:mx-20">
+      <h2 className="text-4xl font-black text-neutral-600 mt-16 mb-4 lg:mx-20">
         Obat & Vitamin
       </h2>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 lg:mx-20">
