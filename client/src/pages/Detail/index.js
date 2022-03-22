@@ -119,7 +119,7 @@ export default function Detail() {
       });
     }
   }, [alert]);
-  document.title = `${product.title} | WaysBucks`;
+  document.title = `${product.title} | Evatek`;
   // function that separate every 3 digits with dot
   const dot = (number) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -127,24 +127,30 @@ export default function Detail() {
   return loading ? (
     <Preloader />
   ) : (
-    <div className="lg:mx-20">
-      <div className="flex flex-col md:flex-row gap-24 justify-around">
+    <div className="lg:mx-10">
+      <div className="flex flex-col md:flex-row  justify-around mb-9 mt-20">
+        <div className="flex flex-col shadow-[0_4px_0_0_rgba(0,0,0,1)] border-2 border-black rounded-3xl overflow-hidden m-4 p-4">
+        <h1 className="text-5xl mb-2 font-black text-blood font-">
+          {product.title}
+        </h1>
         <img
-          className="mb-auto w-[436px] h-[555px] object-cover rounded-xl"
+          className="group-hover:scale-105 transition-transform duration-500 object-cover w-full h-[350px] sm:h-[450px] "
           src={product.image}
           alt=""
-        />
-        <div className="flex flex-col">
+        /><br/>
+        <strong class="inline-block px-3 py-1 text-xs font-medium bg-yellow-400 w-14 ml-2">
+            New
+        </strong>
+        <span className="text-xl text-maroon mx-3 shadow-2xl bg-slate-100 mt-2 m-3">
+          Price <br /> Rp. {dot(product.price)}
+        </span>
+      </div>
+        <div className="flex flex-col mt-52">
           <form onSubmit={handleSubmit}>
-            <h1 className="text-5xl mb-2 font-black text-blood font-">
-              {product.title}
-            </h1>
-            <span className="text-xl text-maroon">
-              Rp. {dot(product.price)}
-            </span>
             <Alert alert={alert} setAlert={setAlert} />
             <div className="mt-4">
               <h3 className="text-3xl text-maroon font-black">Vitamin</h3>
+              <p>Silahkan Pilih Vitamin kesukaan anda!</p>
               <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-x-12 gap-y-10 mt-5">
                 {toppings.map((topping) => (
                   <label key={topping.id} className="relative">
