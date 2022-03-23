@@ -208,7 +208,7 @@ export default function ListProducts() {
 	<div className="container mx-auto flex flex-col justify-around p-4 text-center md:p-10 lg:flex-row">
 		<div className="flex flex-col justify-center lg:text-left">
 			<p className="mb-1 text-sm font-medium tracking-widest uppercase dark:text-violet-400">Aplikasi kesehatan #1 di Indonesia dengan 20juta+ download</p>
-			<h1 className="py-2 text-3xl font-medium leading-tight title-font">Download Evatek_Apps</h1>
+			<h1 className="py-2 text-3xl font-medium leading-tight title-font">Download Evatek Store</h1>
 		</div>
 		<div className="flex flex-col items-center justify-center flex-shrink-0 mt-10 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 lg:ml-4 lg:mt-0 lg:justify-end">
 			<button className="inline-flex items-center px-6 py-3 rounded-lg dark:bg-violet-400 dark:text-coolGray-900 bg-cyan-300">
