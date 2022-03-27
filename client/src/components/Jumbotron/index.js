@@ -39,6 +39,9 @@ export default function Jumbotron() {
         <h2 className="text-3xl font-black text-neutral-600 mt-16 mb-12 mx-20">
             Penawaran Menarik
         </h2>
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-10 lg:mx-20 p-2">
+          
+        </div>
     </div>
   );
 }

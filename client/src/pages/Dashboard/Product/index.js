@@ -51,7 +51,7 @@ export default function Product() {
           Add Obat
         </Link>
       </div>
-      <div className="flex flex-col mb-5">
+      <div className="flex flex-col mb-5 mr-4">
         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="inline-block py-2 min-w-full sm:px-6 lg:px-8">
             <div className="overflow-hidden shadow-md sm:rounded-lg">
